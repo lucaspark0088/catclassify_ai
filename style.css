@@ -1,0 +1,181 @@
+body {
+    background-color: rgb(105, 102, 102);
+    color: black;
+    font-size: 14px;
+    margin: 10;
+    text-align: center;
+    line-height: 2;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    /* border: 15px solid blue; */
+    /* padding: 50px;
+    margin: 40px; */
+    /* background-color: white; */
+}
+
+button {
+    background: rgb(179, 179, 179);
+    font-size: 30px;
+    border: 10;
+    border-radius: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.explain {
+    color: rgb(172, 167, 167);
+    font-size: 10px;
+    font-weight: 20;
+}
+
+.webcam-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#webcam {
+    width: 300px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+
+.bar-container{
+    height: 2.7rem;
+}
+ .샴고양이-box{
+    position: absolute;
+    top: 10;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 210px;
+    background-color: rgb(252, 237, 227);
+ }
+ .샴고양이-bar{
+    position: absolute;
+    top: 10;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgb(216, 125, 46);
+ }
+
+ .노르웨이숲고양이-box{
+    position: absolute;
+    top: 30;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 210px;
+    background-color: rgb(251, 234, 236);
+ }
+ .노르웨이숲고양이-bar{
+    position: absolute;
+    top: 30;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgb(200, 86, 112);
+ }
+
+ .스핑크스고양이-box{
+    position: absolute;
+    top: 50;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 210px;
+    background-color: rgb(213, 226,250);
+ }
+ .스핑크스고양이-bar{
+    position: absolute;
+    top: 50;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgb(50, 101, 203);
+ }
+
+ .러시안블루고양이-box{
+    position: absolute;
+    top: 70;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 210px;
+    background-color: rgb(241, 240, 254);
+ }
+ .러시안블루고양이-bar{
+    position: absolute;
+    top: 70;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgb(114, 76, 230);
+ }
+
+ .뱅갈고양이-box{
+    position: absolute;
+    top: 90;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 210px;
+    background-color: rgba(27, 175, 234, 0.2);
+ }
+ .뱅갈고양이-bar{
+    position: absolute;
+    top: 90;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(27, 175, 234, 1);
+ }
+
+
+ .percent-text {
+    font-size: 1rem;
+    color: #000000;
+  }
+  .animal-label {
+      width: 20%;
+      text-align: left;
+      height: 2rem;
+  }
+  #label-container {
+      width: 300px;
+      margin: 0 auto;
+  }
+  #label-container-ex {
+    width: 400px;
+    /* width: 70%; */
+    margin: 0 auto;
+}
+  .result-message {
+      font-size: 2rem;
+  }
+  
+  
+  .animal-explain {
+      font-size: 1.5rem;
+  }
